@@ -33,7 +33,7 @@ This project is a functional, browser-based To-Do List application designed spec
 
 1.  **Clone the Repository**:
     ```bash
-    git clone [https://github.com/bhumikab01/to-do-list.git](https://github.com/bhumikab01/to-do-list.git)
+    git clone https://github.com/bhumikab01/to-do-list.git
     ```
 2.  **Run the Application**:
     * Open `index.html` in any web browser to start managing your academic tasks immediately. No server or installation is required.
