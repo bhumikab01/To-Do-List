@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Project To-Do List</h2>
+    <div class="subtitle">Academic Task Planner</div>
+
+    <div class="input-row">
+        <input type="text" id="taskInput" placeholder="Enter project task...">
+        <input type="date" id="dueDate">
+        <select id="priority">
+            <option value="low">Low</option>
+            <option value="medium" selected>Medium</option>
+            <option value="high">High</option>
+        </select>
+        <button id="addBtn">Add</button>
+    </div>
+
+    <div class="controls">
+        <div class="filters">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="active">Active</button>
+            <button data-filter="completed">Completed</button>
+        </div>
+        <div>
+            <button id="clearCompleted">Clear Completed</button>
+        </div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;">
+        <div class="counts" id="counts">0 tasks</div>
+        <div style="font-size:12px;color:#666;">Double-click to edit task text</div>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"> </script>
+
+</body>
+</html>
